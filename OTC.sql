@@ -202,42 +202,42 @@ CREATE TABLE stg_activos (
 );
 
 SET GLOBAL local_infile = ON;
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_colaboradores.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_colaboradores.csv'
 INTO TABLE stg_colaboradores CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_asignaciones.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_asignaciones.csv'
 INTO TABLE stg_asignaciones CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_clientes.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_clientes.csv'
 INTO TABLE stg_clientes CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_departamentos.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_departamentos.csv'
 INTO TABLE stg_departamentos CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_roles.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_roles.csv'
 INTO TABLE stg_roles CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_habilidades.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_habilidades.csv'
 INTO TABLE stg_habilidades CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_matriz.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_matriz.csv'
 INTO TABLE stg_matriz CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/danybenitez/Desktop/CSVs_staging_OTC/stg_activos.csv'
+LOAD DATA LOCAL INFILE '/Users/juanvillarreal/Desktop/CSVs_staging_OTC/stg_activos.csv'
 INTO TABLE stg_activos CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
