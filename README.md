@@ -3,7 +3,7 @@
 
 # Evidencia 1. Video Individual de Etapas Iniciales
 
-## Reto de Business Intelligence — OT Consulting
+## Reto — OT Consulting
 
 **Soporte Analítico para la Toma de Decisiones**  
 Grupo 301 | Equipo 3 | Quinto semestre
@@ -19,7 +19,7 @@ Maria Imelda Valdez
 
 ---
 
-## 1. Justificación y planeación
+## Etapa 1. Justificación y planeación
 
 El objetivo del reto es desarrollar un módulo de Business Intelligence que permita a los gerentes y directores de OT Consulting mejorar la asignación de colaboradores, la planeación de proyectos y la estimación de costos.
 
@@ -34,7 +34,7 @@ El objetivo del reto es desarrollar un módulo de Business Intelligence que perm
 
 ---
 
-## 2. Exploración de datos
+## Etapa 2. Exploración de datos
 
 Se realizó un proceso de Data Profiling sobre ocho fuentes de información proporcionadas por OT Consulting.
 
@@ -89,7 +89,7 @@ También se identificaron problemas de integridad referencial, valores faltantes
 
 ---
 
-## 3. Tratamiento y acondicionamiento de datos
+## Etapa 3. Tratamiento y acondicionamiento de datos
 
 Se utilizó SQL y MySQL Workbench para preparar las fuentes de información.
 
@@ -143,7 +143,7 @@ Se utilizó SQL y MySQL Workbench para preparar las fuentes de información.
 
 ---
 
-## 4. Diseño del modelo dimensional lógico
+## Etapa 4. Diseño del modelo dimensional lógico
 
 Se diseñó un modelo dimensional utilizando la metodología de Kimball.
 
@@ -178,7 +178,7 @@ El modelo corresponde a una constelación de hechos, donde Dim_Colaborador funci
 
 ---
 
-## 5. Demostración de la propuesta
+## Etapa 5. Demostración de la propuesta
 
 Prototipo del módulo de Business Intelligence desarrollado por el equipo 3.
 
@@ -195,7 +195,7 @@ Prototipo del módulo de Business Intelligence desarrollado por el equipo 3.
 
 ---
 
-## 6. Conclusiones y acciones futuras
+## Etapa 6. Conclusiones y acciones futuras
 
 Las primeras cuatro etapas permitieron identificar las necesidades de OT Consulting, evaluar la calidad de sus datos, acondicionar las fuentes de información y diseñar un modelo dimensional orientado a la toma de decisiones.
 
